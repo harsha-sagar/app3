@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 class TodoItem extends React.Component{
     constructor(){
@@ -23,7 +22,7 @@ class TodoItem extends React.Component{
 	render() {
 		var classes = 'list-group-item clearfix';
 		if (this.props.complete === true) {
-			classes = classes + ' list-group-item-success';
+			classes += ' list-group-item-success';
 		}
 		return (
 			<li className={classes}>
