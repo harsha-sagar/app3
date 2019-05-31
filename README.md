@@ -1,6 +1,3 @@
-### About -  
-todo app using reactjs  
-
 ### Prerequisites -  
 make sure Mongodb is installed into the system  
 
